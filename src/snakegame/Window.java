@@ -11,24 +11,12 @@ import javax.swing.JFrame;
  *
  * @author olste
  */
-public class Window extends JFrame{
+public class Window  {
     //constructor method
-    public Window(){
-        this.Components();
-        setTitle("GameSnake");
-        setVisible(true);
-        setLocationRelativeTo(null);
-        setSize(800,400);
-        setLayout(null);
-    }
-    
-    public void Components(){
-        //
-    panel p = new panel();
-    add (p);
-                                                
-
-
-
+    public void CreateWindow(){
+        JFrame marco = new JFrame("texto");
+        marco.add(new panel());
+        marco.setSize(800,600);
+        marco.setVisible(true);
     }
 }

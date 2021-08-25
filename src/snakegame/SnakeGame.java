@@ -15,7 +15,9 @@ public class SnakeGame {
     
     public static void main(String[] args) {
         // TODO code application logic here
-        new Window().setVisible(true);
+        
+        Window w = new Window();
+        w.CreateWindow();
     }
     
 }
